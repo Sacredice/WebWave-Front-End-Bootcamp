@@ -1,69 +1,115 @@
 import React from 'react'
-import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
+
 
 function SearchSection() {
   return (
-    <div>
-      <div className='d-lg-none px-3 text-center'>
-        <h1 className='text-center'>Kariyer Fırsatlarını Keşfet</h1>
-        <p style={{ fontSize: "1.4rem"}}><strong>77.148</strong> iş ilanı <strong>on binlerce</strong> şirket</p>
-        <div class="input-group mb-3">
-          <span className="input-group-text" id="basic-addon1">@</span>
-          <input type="text" className="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" />
-        </div>
-      </div>
-
-      <div className='container d-none d-lg-block'>
-        <h1>Kariyer Fırsatlarını Keşfet</h1>
-        <p className='mt-2' style={{ fontSize: "1.4rem"}}><strong>77.148</strong> iş ilanı <strong>on binlerce</strong> şirket</p>
-
-        <div className='d-block d-xl-none'>
-          <div className='d-flex' style={{ height: "52px"}}>
-            <input className="form-control" style={{ maxWidth: "240px"}} list="datalistOptions" placeholder="Type to search..."></input>
-              <datalist id="datalistOptions">
-                <option value="San Francisco" />
-                <option value="New York" />
-                <option value="Seattle" />
-                <option value="Los Angeles" />
-                <option value="Chicago" />
-              </datalist>
-            <input className="form-control px-3 mx-4" style={{ maxWidth: "240px"}} list="datalistOptions" placeholder="Type to search..."></input>
-              <datalist id="datalistOptions">
-                <option value="San Francisco" />
-                <option value="New York" />
-                <option value="Seattle" />
-                <option value="Los Angeles" />
-                <option value="Chicago" />
-              </datalist>
-          <button type='button' className='btn btn-primary'  style={{ width: "145px"}}><i class="bi bi-search"></i><span className='ms-2'>İŞ BUL</span></button>
+    <div className='d-block searchselection-container'>
+      <div className='container-fluid d-flex align-items-center' style={{ height: "100%" }}>
+          <div className='d-lg-none px-3 text-center' style={{ width: "100%", marginTop: "10px"}}>
+            <h1 className='text-center' style={{ fontSize: "2rem" }}>Kariyer Fırsatlarını Keşfet</h1>
+            <h2 style={{ fontSize: ".875rem", fontWeight: "300"}}><strong style={{ fontSize: ".875rem", fontWeight: "500" }}>77.148</strong> iş ilanı <strong style={{ fontSize: ".875rem", fontWeight: "500" }}>on binlerce</strong> şirket</h2>
+            <span class="d-flex text-start align-items-center form-control" style ={{ height: "50px", marginTop: "16px", marginBottom: "32px"}}>
+              <i class="bi bi-search" style={{ color: "#6A1293", marginLeft: "4px", marginRight: "10px"}}></i>
+              <input type="text" style={{ border: "none"}} placeholder="Pozisyon veya şirket ara" aria-label="Pozisyon veya şirket ara" />
+            </span>
+            <div className='d-flex flex-nowrap d-md-none popular-search-item-container' style={{ maxWidth: "620px" }}>
+              <a className='mb-3' href="">Finans Uzmanı</a>
+              <a href="">Dijital Pazarlama Uzmanı</a>
+              <a href="">Yazılım Geliştirme Uzmanı</a>
+              <a href="">Proje Yöneticisi</a>
+              <a href="">İK Uzmanı</a>
+            </div>
+            <div className='d-none d-md-block flex-nowrap popular-search-item-container' style={{ maxWidth: "620px" }}>
+              <a className='mb-3' href="">Finans Uzmanı</a>
+              <a href="">Dijital Pazarlama Uzmanı</a>
+              <a href="">Yazılım Geliştirme Uzmanı</a>
+              <a href="">Proje Yöneticisi</a>
+              <a href="">İK Uzmanı</a>
+            </div>
           </div>
-        </div>
 
-        <div className='d-none d-xl-block'>
-            <div className='d-flex' style={{ height: "52px"}}>
-            <input className="form-control px-3" style={{ maxWidth: "290px"}} list="datalistOptions" placeholder="Type to search..."></input>
-              <datalist id="datalistOptions">
-                <option value="San Francisco" />
-                <option value="New York" />
-                <option value="Seattle" />
-                <option value="Los Angeles" />
-                <option value="Chicago" />
-              </datalist>
-            <input className="form-control px-3 mx-4" style={{ maxWidth: "290px"}} list="datalistOptions" placeholder="Type to search..."></input>
-              <datalist id="datalistOptions">
-                <option value="San Francisco" />
-                <option value="New York" />
-                <option value="Seattle" />
-                <option value="Los Angeles" />
-                <option value="Chicago" />
-              </datalist>
-          <button type='button' className='btn btn-primary' style={{ width: "145px"}}><i class="bi bi-search"></i><span className='ms-2'>İŞ BUL</span></button>
+          <div className='container d-none d-lg-flex  align-items-center' style={{ position: "relative", height: "100%", backgroundColor: "#F5F5F5" }}>
+            <img className='d-none d-lg-block d-xl-none' style={{ position: "absolute", bottom: "0", left: "620px", height: "286px" }} src="/searchbox-img.webp" alt="Kariyer Logo" />
+            <img className='d-none d-xl-block' style={{ position: "absolute", bottom: "0", left: "758px"}} src="/searchbox-img.webp" alt="Kariyer Logo" />
+            <div style={{ marginTop: "30px"}}>
+              <h1 style={{ fontSize: "2rem" }}>Kariyer Fırsatlarını Keşfet</h1>
+              <h2 className='mt-2' style={{ fontSize: "1.4rem", fontWeight: "300"}}><strong style={{ fontSize: "1.4rem", fontWeight: "500" }}>77.148</strong> iş ilanı <strong style={{ fontSize: "1.4rem", fontWeight: "500" }}>on binlerce</strong> şirket</h2>
+
+              <div className='d-block d-xl-none'>
+                <div className='d-flex' style={{ height: "52px"}}>
+                  <input className="form-control" style={{ maxWidth: "240px", borderRadius: "5px" }} list="datalistOptions" placeholder="Type to search..."></input>
+                    <datalist id="datalistOptions">
+                      <option value="San Francisco" />
+                      <option value="New York" />
+                      <option value="Seattle" />
+                      <option value="Los Angeles" />
+                      <option value="Chicago" />
+                    </datalist>
+                  <input className="form-control px-3 mx-4" style={{ maxWidth: "240px", borderRadius: "5px" }} list="datalistOptions" placeholder="Type to search..."></input>
+                    <datalist id="datalistOptions">
+                      <option value="San Francisco" />
+                      <option value="New York" />
+                      <option value="Seattle" />
+                      <option value="Los Angeles" />
+                      <option value="Chicago" />
+                    </datalist>
+                <button type='button' className='btn button-color' style={{ width: "145px"}}><i class="bi bi-search"></i><span className='ms-2'>İŞ BUL</span></button>
+                </div>
+                
+                
+              </div>
+
+              <div className='d-none d-xl-block'>
+                  <div className='d-flex' style={{ height: "52px"}}>
+                  <input className="form-control px-3" style={{ maxWidth: "290px", borderRadius: "5px" }} list="datalistOptions" placeholder="Type to search..."></input>
+                    <datalist id="datalistOptions">
+                      <option value="San Francisco" />
+                      <option value="New York" />
+                      <option value="Seattle" />
+                      <option value="Los Angeles" />
+                      <option value="Chicago" />
+                    </datalist>
+                  <input className="form-control px-3 mx-4" style={{ maxWidth: "290px", borderRadius: "5px"}} list="datalistOptions" placeholder="Type to search..."></input>
+                    <datalist id="datalistOptions">
+                      <option value="San Francisco" />
+                      <option value="New York" />
+                      <option value="Seattle" />
+                      <option value="Los Angeles" />
+                      <option value="Chicago" />
+                    </datalist>
+                <button type='button' className='btn button-color' style={{ width: "145px"}}><i class="bi bi-search"></i><span className='ms-2'>İŞ BUL</span></button>
+                </div>
+              </div>
+              <h2 style={{ fontSize: "1rem",color: "#8795B5", marginBottom: "1rem", marginTop: "32px" }}>POPÜLAR ARAMALAR</h2>
+              <div className='d-flex flex-wrap d-xl-none popular-search-item-container' style={{ maxWidth: "620px" }}>
+                <a className='mb-3' href="">Finans Uzmanı</a>
+                <a href="">Dijital Pazarlama Uzmanı</a>
+                <a href="">Yazılım Geliştirme Uzmanı</a>
+                <a href="">Proje Yöneticisi</a>
+                <a href="">İK Uzmanı</a>
+              </div>
+
+                <div className='d-none d-xl-block popular-search-item-container' style={{ height: "52px" }}>    
+                  <a href="">Finans Uzmanı</a>
+                  <a href="">Dijital Pazarlama Uzmanı</a>
+                  <a href="">Yazılım Geliştirme Uzmanı</a>
+                  <a href="">Proje Yöneticisi</a>
+                  <a href="">İK Uzmanı</a>
+                </div>
+
+                <div className='d-none d-xl-block popular-search-item-container'>
+                  <a href="">İstanbul(Avrupa)</a>
+                  <a href="">İstanbul(Asya)</a>
+                  <a href="">Ankara</a>
+                  <a href="">İzmir</a>
+                  <a href="">Bursa</a>
+                  <a href="">İstanbul</a>
+                </div>
+            </div>
+
           </div>
-        </div>
 
       </div>
-      
     </div>
   )
 }
