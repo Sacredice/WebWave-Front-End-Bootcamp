@@ -4,18 +4,7 @@
     align-items: center;
 }
 
-@media only screen and (min-width: 992px) {
-    .searchselection-container {
-        background-color: #F5F5F5;
-        height: 344px;
-    }
-}
-@media only screen and (min-width: 1200px) {
-    .searchselection-container {
-        background-color: #F5F5F5;
-        height: 386px;
-    }
-}
+
 
 .popular-search-item-container a {
     color: #8316b5;
@@ -46,6 +35,42 @@
     color: #FFF;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+    top: 50%;
+    border: 1px solid gray;
+    border-radius: 6px;
+    background-color: rgba(131, 21, 181, 0.5);
+    color: gray;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.carousel-control-next {
+    transform: translate(50%, -50%);
+}
+
+.carousel-control-prev {
+    transform: translate(-50%, -50%);
+}
+
+
+@media only screen and (min-width: 992px) {
+    .searchselection-container {
+        background-color: #F5F5F5;
+        height: 344px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .searchselection-container {
+        background-color: #F5F5F5;
+        height: 386px;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .popular-search-item-container a{
         font-size: 12px;
@@ -57,6 +82,13 @@
 @media only screen and (min-width: 1200px) {
     .popular-search-item-container a{
         font-size: .875rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel:hover .carousel-control-next,
+    .carousel:hover .carousel-control-prev {
+        display: flex;
     }
 }
 

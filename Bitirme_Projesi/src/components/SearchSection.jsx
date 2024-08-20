@@ -3,9 +3,9 @@ import React from 'react'
 
 function SearchSection() {
   return (
-    <div className='d-block searchselection-container'>
-      <div className='container-fluid d-flex align-items-center' style={{ height: "100%" }}>
-          <div className='d-lg-none px-3 text-center' style={{ width: "100%", marginTop: "10px"}}>
+    <div className='d-block searchselection-container' style={{ height: "100%", overflowX: "clip"}}>
+      <div className='container-fluid d-flex flex-column justify-content-center' style={{ height: "100%", paddingTop: "32px" }}>
+          <div className='d-lg-none px-3 pb-2 text-center' style={{ width: "100%", marginTop: "10px"}}>
             <h1 className='text-center' style={{ fontSize: "2rem" }}>Kariyer Fırsatlarını Keşfet</h1>
             <h2 style={{ fontSize: ".875rem", fontWeight: "300"}}><strong style={{ fontSize: ".875rem", fontWeight: "500" }}>77.148</strong> iş ilanı <strong style={{ fontSize: ".875rem", fontWeight: "500" }}>on binlerce</strong> şirket</h2>
             {/* TODO: tıklandığında görüntülenen modal eksik!!! */}
