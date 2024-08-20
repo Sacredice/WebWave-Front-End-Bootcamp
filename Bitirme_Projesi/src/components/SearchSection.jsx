@@ -8,6 +8,7 @@ function SearchSection() {
           <div className='d-lg-none px-3 text-center' style={{ width: "100%", marginTop: "10px"}}>
             <h1 className='text-center' style={{ fontSize: "2rem" }}>Kariyer Fırsatlarını Keşfet</h1>
             <h2 style={{ fontSize: ".875rem", fontWeight: "300"}}><strong style={{ fontSize: ".875rem", fontWeight: "500" }}>77.148</strong> iş ilanı <strong style={{ fontSize: ".875rem", fontWeight: "500" }}>on binlerce</strong> şirket</h2>
+            {/* TODO: tıklandığında görüntülenen modal eksik!!! */}
             <span class="d-flex text-start align-items-center form-control" style ={{ height: "50px", marginTop: "16px", marginBottom: "32px"}}>
               <i class="bi bi-search" style={{ color: "#6A1293", marginLeft: "4px", marginRight: "10px"}}></i>
               <input type="text" style={{ border: "none"}} placeholder="Pozisyon veya şirket ara" aria-label="Pozisyon veya şirket ara" />
