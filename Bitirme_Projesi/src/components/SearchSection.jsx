@@ -9,8 +9,8 @@ function SearchSection() {
             <h1 className='text-center' style={{ fontSize: "2rem" }}>Kariyer Fırsatlarını Keşfet</h1>
             <h2 style={{ fontSize: ".875rem", fontWeight: "300"}}><strong style={{ fontSize: ".875rem", fontWeight: "500" }}>77.148</strong> iş ilanı <strong style={{ fontSize: ".875rem", fontWeight: "500" }}>on binlerce</strong> şirket</h2>
             {/* TODO: tıklandığında görüntülenen modal eksik!!! */}
-            <span class="d-flex text-start align-items-center form-control" style ={{ height: "50px", marginTop: "16px", marginBottom: "32px"}}>
-              <i class="bi bi-search" style={{ color: "#6A1293", marginLeft: "4px", marginRight: "10px"}}></i>
+            <span className="d-flex text-start align-items-center form-control" style ={{ height: "50px", marginTop: "16px", marginBottom: "32px"}}>
+              <i className="bi bi-search" style={{ color: "#6A1293", marginLeft: "4px", marginRight: "10px"}}></i>
               <input type="text" style={{ border: "none"}} placeholder="Pozisyon veya şirket ara" aria-label="Pozisyon veya şirket ara" />
             </span>
             <div className='d-flex flex-nowrap d-md-none popular-search-item-container' style={{ maxWidth: "620px" }}>
@@ -54,7 +54,7 @@ function SearchSection() {
                       <option value="Los Angeles" />
                       <option value="Chicago" />
                     </datalist>
-                <button type='button' className='btn button-color' style={{ width: "145px"}}><i class="bi bi-search"></i><span className='ms-2'>İŞ BUL</span></button>
+                <button type='button' className='btn button-color' style={{ width: "145px"}}><i className="bi bi-search"></i><span className='ms-2'>İŞ BUL</span></button>
                 </div>
                 
                 
@@ -78,7 +78,7 @@ function SearchSection() {
                       <option value="Los Angeles" />
                       <option value="Chicago" />
                     </datalist>
-                <button type='button' className='btn button-color' style={{ width: "145px"}}><i class="bi bi-search"></i><span className='ms-2'>İŞ BUL</span></button>
+                <button type='button' className='btn button-color' style={{ width: "145px"}}><i className="bi bi-search"></i><span className='ms-2'>İŞ BUL</span></button>
                 </div>
               </div>
               <h2 style={{ fontSize: "1rem",color: "#8795B5", marginBottom: "1rem", marginTop: "32px" }}>POPÜLAR ARAMALAR</h2>
