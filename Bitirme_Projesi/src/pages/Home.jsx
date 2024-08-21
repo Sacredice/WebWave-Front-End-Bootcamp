@@ -6,10 +6,9 @@ import PromotedJobs from '../components/PromotedJobs'
 function Home() {
   return (
     <div>
-        <SearchSection />
-        <AdCarousel />
-        <PromotedJobs />
-        <AdCarousel />
+      <SearchSection />
+      <AdCarousel />
+      <PromotedJobs />
     </div>
   )
 }
