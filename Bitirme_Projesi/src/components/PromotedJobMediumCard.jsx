@@ -1,7 +1,6 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
 
-function PromotedJobMediumCard({ link, imgSrc, job, company, location, width, height }) {
+function PromotedJobMediumCard({ link, imgSrc, job, company, location, width }) {
   return (
     <div className='container px-0 m-0 card-hover-shadow' style={{ border: "1px solid #e4e4e4", borderRadius: "4px", maxWidth: width, backgroundColor: "#FFFFFF", height: "100%" }}>
       <a className='px-0 mx-0' href={link} style={{ textDecoration: "none", textAlign: "center"}}>
