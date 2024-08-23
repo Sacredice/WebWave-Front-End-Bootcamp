@@ -11,26 +11,26 @@ function JobsAdsCardsListLarge({ data }) {
           <div style={{ boxShadow: "0 0 4px rgba(0, 0, 0, 0.1)", width: "225px", height: "269px" }}>
 
             <div className='select-button' onClick={() => setSelectedList("bugun")}>
-              <p style={{ width: "100%" }}>Bugün Yayınlananlar</p>
+              <p className={selectedList === "bugun" ? "selected-button" : ""} style={{ width: "100%" }}>Bugün Yayınlananlar</p>
               <div className='button-underline-div'></div>
             </div>
             <div className='select-button' onClick={() => setSelectedList("uzaktan")}>
-              <p style={{ width: "100%" }}>Uzaktan Çalışma İlanları</p>
+              <p className={selectedList === "uzaktan" ? "selected-button" : ""} style={{ width: "100%" }}>Uzaktan Çalışma İlanları</p>
               <div className='button-underline-div'></div>
             </div>
 
             <div className='select-button' onClick={() => setSelectedList("partTime")}>
-              <p style={{ width: "100%" }}>Part-time İlanlar</p>
+              <p className={selectedList === "partTime" ? "selected-button" : ""} style={{ width: "100%" }}>Part-time İlanlar</p>
               <div className='button-underline-div'></div>
             </div>
 
             <div className='select-button' onClick={() => setSelectedList("yeniMezun")}>
-              <p style={{ width: "100%" }}>Yeni Mezun İlanları</p>
+              <p className={selectedList === "yeniMezun" ? "selected-button" : ""} style={{ width: "100%" }}>Yeni Mezun İlanları</p>
               <div className='button-underline-div'></div>
             </div>
 
             <div className='select-button' onClick={() => setSelectedList("yonetici")}>
-              <p style={{ width: "100%" }}>Yönetici </p>
+              <p className={selectedList === "yonetici" ? "selected-button" : ""} style={{ width: "100%" }}>Yönetici </p>
               <div className='button-underline-div'></div>
             </div>
           </div>

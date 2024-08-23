@@ -8,7 +8,7 @@ import { data } from "../jobs-data/jobsData"
 function JobsAds() {
 
   return (
-    <div className='container job-ads px-0' style={{ padding: "12px" }}>
+    <div className='container job-ads px-0' style={{ padding: "12px 0" }}>
       <div className='container p-0' style={{ maxWidth: "1140px" }}>
 
         <JobsAdsCardsListSmall data={data?.bugun} />
