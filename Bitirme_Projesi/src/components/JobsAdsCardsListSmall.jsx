@@ -1,7 +1,7 @@
 import React from 'react'
 import JobsAdsCardSmall from './JobsAdsCardSmall'
 
-function JobsAdsTypesSmall({ data }) {
+function JobsAdsCardsListSmall({ data }) {
  
   return (
     <div>
@@ -10,7 +10,7 @@ function JobsAdsTypesSmall({ data }) {
           <p className='m-0 ps-3' style={{ fontSize: "16px", fontWeight: "300" }}>{(data.title).toUpperCase()}</p>
           <a className='m-0 pe-3' style={{ fontSize: "14px", fontWeight: "500", color: "rgb(131, 22, 181)", textDecoration: "none" }}>Tüm İlanlar</a>
         </div>
-        <div style={{ maxWidth: "540px", overflowX: "scroll" }}>
+        <div style={{ overflowX: "scroll" }}>
           <div className='row px-3' style={{ height: "178px", width: "1120px", marginTop: "16px" }}>
               {(data.cards).map((card, index)=> (
                 <div className='col-2' key={index}>
@@ -24,4 +24,4 @@ function JobsAdsTypesSmall({ data }) {
   )
 }
 
-export default JobsAdsTypesSmall
+export default JobsAdsCardsListSmall
