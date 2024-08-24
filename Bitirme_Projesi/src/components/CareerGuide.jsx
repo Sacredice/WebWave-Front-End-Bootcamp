@@ -39,7 +39,7 @@ function CareerGuide() {
         </div>
 
         <div className='container d-none d-sm-block d-md-none px-0'>
-          <p style={{ fontSize: "16px", fontWeight: "300" }}>KARİYER REHBERİ</p>
+          <p style={{ fontSize: "20px", fontWeight: "300" }}>KARİYER REHBERİ</p>
           <div style={{ width: "540px", overflowX: "scroll" }}>
 
             <div className='d-flex justify-content-between' style={{ width: "800px" }}>
@@ -54,7 +54,7 @@ function CareerGuide() {
 
         <div className='container d-none d-md-block d-lg-none px-0 mt-4 mb-3'>
           <div className='d-flex justify-content-between'>
-            <p style={{ fontSize: "16px", fontWeight: "300" }}>KARİYER REHBERİ</p>
+            <p style={{ fontSize: "20px", fontWeight: "300" }}>KARİYER REHBERİ</p>
             <a href="" style={{ color: "rgb(131, 22, 181)", fontSize: "14px", fontWeight: "500", textDecoration: "none" }}>Tümünü Gör</a>
           </div>
           <div style={{ width: "720px", overflowX: "scroll" }}>
@@ -66,9 +66,9 @@ function CareerGuide() {
           </div>
         </div>
 
-        <div className='container d-none d-lg-block d-xl-none px-0'>
+        <div className='container d-none d-lg-block d-xl-none px-0 mt-4 mb-3'>
           <div className='d-flex justify-content-between'>
-            <p style={{ fontSize: "16px", fontWeight: "300" }}>KARİYER REHBERİ</p>
+            <p style={{ fontSize: "20px", fontWeight: "300" }}>KARİYER REHBERİ</p>
             <a href="https://www.kariyer.net/kariyer-rehberi/" style={{ color: "rgb(51, 51, 51)", fontSize: "14px", fontWeight: "500", textDecoration: "none" }}>Tümünü Gör</a>
           </div>
           <div style={{ width: "960px" }}>
@@ -80,9 +80,9 @@ function CareerGuide() {
           </div>
         </div>
 
-        <div className='container d-none d-xl-block px-0'>
+        <div className='container d-none d-xl-block px-0 mt-4 mb-3'>
           <div className='d-flex justify-content-between'>
-            <p style={{ fontSize: "16px", fontWeight: "300" }}>KARİYER REHBERİ</p>
+            <p style={{ fontSize: "22px", fontWeight: "300" }}>KARİYER REHBERİ</p>
             <a href="https://www.kariyer.net/kariyer-rehberi/" style={{ color: "rgb(131, 22, 181)", fontSize: "14px", fontWeight: "500", textDecoration: "none" }}>Tümünü Gör</a>
           </div>
           <div>
