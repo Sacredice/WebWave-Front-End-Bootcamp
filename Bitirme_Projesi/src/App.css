@@ -122,11 +122,15 @@
 
 .career-plan-link:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.13);
-    transition: all 0.1s ease-in;
+    transition: all 0.15s ease-in;
 }
 
 .career-plan-link:hover a span {
     color: rgb(131, 22, 181);
+}
+
+.carreer-guide-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 
