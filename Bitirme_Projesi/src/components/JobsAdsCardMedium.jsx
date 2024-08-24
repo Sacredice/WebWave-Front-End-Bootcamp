@@ -1,9 +1,10 @@
 import React from 'react'
+import JobAdUpTimeStatus from './JobAdUpTimeStatus'
 
 function JobsAdsCardMedium({ cardData }) {
 
   return (
-    <div className='container px-0 card-hover-shadow' style={{ boxShadow: "0 0 4px rgba(0, 0, 0, 0.1)", borderRadius: "4px", maxWidth: "328px", marginRight: "22px", marginBottom: "16px", maxHeight: "135px" }}>
+    <div className='container px-0 card-hover-shadow' style={{ boxShadow: "0 0 4px rgba(0, 0, 0, 0.1)", borderRadius: "4px",  marginRight: "22px", marginBottom: "16px", maxHeight: "135px" }}>
       <a className='px-0' href="" style={{ textDecoration: "none" }}>
         <div style={{ padding: "15px" }}>
           <div className='d-flex align-items-start' >
@@ -17,8 +18,8 @@ function JobsAdsCardMedium({ cardData }) {
             </div>
           </div>
           <div className='d-flex justify-content-between align-items-end' style={{ height: "39px" }}>
-              <p className='mb-0'>Tam Zamanlı</p>
-              <p className='mb-0'>Bugün</p>
+              <p className='mb-0' style={{ color: "rgb(51, 51, 51)", fontSize: "12px", fontWeight: "400" }}>Tam Zamanlı</p>
+              <JobAdUpTimeStatus status={cardData.adStatus} />
           </div>
         </div>
       </a>

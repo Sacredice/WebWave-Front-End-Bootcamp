@@ -69,7 +69,7 @@ export const data = {
         company: "TotalEnergies Turkey Pazarlama A.Ş",
         location: "İstanbul(Asya) • Hibrit",
         type: "Tam zamanlı",
-        adStatus: "Tam zamanlı"
+        adStatus: "1 gün"
       },
       {
         id: 8,

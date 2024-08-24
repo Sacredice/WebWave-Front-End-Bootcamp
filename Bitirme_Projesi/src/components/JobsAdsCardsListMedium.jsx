@@ -9,8 +9,8 @@ function JobAdsCardsListMedium({ data }) {
           <p className='m-0 ps-3' style={{ fontSize: "20px", fontWeight: "300" }}>{(data.title).toUpperCase()}</p>
           <a className='m-0 pe-3' style={{ fontSize: "14px", fontWeight: "500", color: "rgb(131, 22, 181)", textDecoration: "none" }}>Tüm İlanlar</a>
         </div>
-        <div>
-          <div className='row px-3' style={{ height: "178px", width: "100%", marginTop: "16px" }}>
+        <div className='d-flex justify-content-center'>
+          <div className='row' style={{ height: "178px", width: "100%", marginTop: "16px" }}>
               {(data.cards).map((card, index)=> (
                 <div className='col-6' key={index}>
                   <JobsAdsCardMedium  cardData={card} />
@@ -24,8 +24,8 @@ function JobAdsCardsListMedium({ data }) {
           <p className='m-0 ps-3' style={{ fontSize: "20px", fontWeight: "300" }}>{(data.title).toUpperCase()}</p>
           <a className='m-0 pe-3' style={{ fontSize: "14px", fontWeight: "500", color: "rgb(131, 22, 181)", textDecoration: "none" }}>Tüm İlanlar</a>
         </div>
-        <div>
-          <div className='row px-3' style={{ height: "178px", width: "100%", marginTop: "16px" }}>
+        <div className='d-flex justify-content-center'>
+          <div className='row' style={{ height: "178px", width: "100%", marginTop: "16px" }}>
               {(data.cards).map((card, index)=> (
                 <div className='col-6' key={index}>
                   <JobsAdsCardMedium  cardData={card} />
@@ -39,8 +39,8 @@ function JobAdsCardsListMedium({ data }) {
           <p className='m-0 ps-3' style={{ fontSize: "22px", fontWeight: "300" }}>{(data.title).toUpperCase()}</p>
           <a className='m-0 pe-3' style={{ fontSize: "14px", fontWeight: "500", color: "rgb(131, 22, 181)", textDecoration: "none" }}>Tüm İlanlar</a>
         </div>
-        <div>
-          <div className='row px-3' style={{ height: "178px", width: "100%", marginTop: "16px" }}>
+        <div className='d-flex justify-content-center'>
+          <div className='row' style={{ height: "178px", width: "100%", marginTop: "16px" }}>
               {(data.cards).map((card, index)=> (
                 <div className='col-6' key={index}>
                   <JobsAdsCardMedium  cardData={card} />
