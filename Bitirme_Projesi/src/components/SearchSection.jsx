@@ -47,15 +47,16 @@ function SearchSection() {
                     <option value="Los Angeles" />
                     <option value="Chicago" />
                   </datalist>
-                  <input className="form-control px-3 mx-4" style={{ maxWidth: "240px", borderRadius: "5px" }} list="datalistOptions" placeholder="Type to search..."></input>
+                  <input className="form-control px-3 mx-4" style={{ maxWidth: "240px", borderRadius: "5px" }} list="datalistOptions" placeholder="Şehir veya İlçe ara"></input>
                   <datalist id="datalistOptions">
-                    <option value="San Francisco" />
-                    <option value="New York" />
-                    <option value="Seattle" />
-                    <option value="Los Angeles" />
-                    <option value="Chicago" />
+                    <option value="İstanbul (Avr.)" />
+                    <option value="İstabul (Asya)" />
+                    <option value="Ankara" />
+                    <option value="İzmir" />
+                    <option value="Kocaeli" />
+                    <option value="Bursa" />
                   </datalist>
-                  <button type='button' className='btn button-color' style={{ width: "145px" }}><i className="bi bi-search"></i><span className='ms-2'>İŞ BUL</span></button>
+                  <button type='button' className='btn purple-color-button' style={{ width: "145px" }}><i className="bi bi-search"></i><span className='ms-2'>İŞ BUL</span></button>
                 </div>
 
 
@@ -71,15 +72,16 @@ function SearchSection() {
                     <option value="Los Angeles" />
                     <option value="Chicago" />
                   </datalist>
-                  <input className="form-control px-3 mx-4" style={{ maxWidth: "290px", borderRadius: "5px" }} list="datalistOptions" placeholder="Type to search..."></input>
+                  <input className="form-control px-3 mx-4" style={{ maxWidth: "290px", borderRadius: "5px" }} list="datalistOptions" placeholder="Şehir veya İlçe ara"></input>
                   <datalist id="datalistOptions">
-                    <option value="San Francisco" />
-                    <option value="New York" />
-                    <option value="Seattle" />
-                    <option value="Los Angeles" />
-                    <option value="Chicago" />
+                    <option value="İstanbul (Avr.)" />
+                    <option value="İstabul (Asya)" />
+                    <option value="Ankara" />
+                    <option value="İzmir" />
+                    <option value="Kocaeli" />
+                    <option value="Bursa" />
                   </datalist>
-                  <button type='button' className='btn button-color' style={{ width: "145px" }}><i className="bi bi-search"></i><span className='ms-2'>İŞ BUL</span></button>
+                  <button type='button' className='btn purple-color-button' style={{ width: "145px" }}><i className="bi bi-search"></i><span className='ms-2'>İŞ BUL</span></button>
                 </div>
               </div>
               <h2 style={{ fontSize: "1rem", color: "#8795B5", marginBottom: "1rem", marginTop: "32px" }}>POPÜLAR ARAMALAR</h2>

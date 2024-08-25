@@ -25,14 +25,14 @@
     border: 1px solid #8316bc;
 }
 
-.button-color {
-    background-color: #8315B5;
-    color: #FFF;
+.purple-color-button {
+    background-color: #8315B5!important;
+    color: #FFF!important;
 }
 
-.button-color:hover {
-    background-color: #6A1293;
-    color: #FFF;
+.purple-color-button:hover {
+    background-color: #6A1293!important;
+    color: #FFF!important;
 }
 
 .promoted-jobs-container {

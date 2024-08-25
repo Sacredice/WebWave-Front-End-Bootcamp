@@ -65,7 +65,7 @@ function JobAdCategoriesAccordion() {
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="3">
-              <Accordion.Header style={{ position: "relative" }}>Pozisyonlara Göre İş İlanları<a style={{ position: "absolute", right: "52px", marginRight: "10px"}} href="" target='_blank'>Tümünü Gör</a></Accordion.Header>
+              <Accordion.Header style={{ position: "relative" }}>Pozisyonlara Göre İş İlanları</Accordion.Header>
               <Accordion.Body className='px-0 pt-1'>
 
                 <div className='d-flex flex-wrap ps-4 pe-3 pt-3' style={{ borderTop: "1px solid rgb(228, 228, 228)"}}>
