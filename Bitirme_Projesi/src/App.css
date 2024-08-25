@@ -133,6 +133,14 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
+.ad-categories-item {
+    font-weight: 300;
+}
+
+.ad-categories-item:hover {
+    font-weight: 500;
+}
+
 
 @media only screen and (min-width: 992px) {
     .searchselection-container {

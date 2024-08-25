@@ -1,0 +1,42 @@
+/* Overriding accordion css classes for removing accordion button click effects */
+.accordion-button:not(.collapsed) {
+  background-color: transparent!important;
+  color: inherit;
+  box-shadow: none!important;
+}
+
+.accordion-item:has(.accordion-button:not(.collapsed)) {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15)
+}
+
+.accordion-button:focus {
+  outline: none!important;
+  box-shadow: none!important;
+}
+
+/* Styling default accordion */
+
+.accordion-item {
+  margin-bottom: 16px; /* Adjust this value as needed */
+  border: 0 solid #FFFFFF;
+}
+
+.accordion-button {
+  color: rgb(41, 5, 5);
+  font-size: 16px;
+  font-weight: 500;
+
+}
+
+.accordion-button:not(.collapsed) a {
+  display: block;
+  color: #8316B5;
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.collapsed  a{
+  display: none;
+}
+

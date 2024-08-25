@@ -25,7 +25,7 @@ function CareerGuide() {
   return (
     <div>
       <hr className='d-md-none' />
-      <div className='container' style={{ maxWidth: "1140px" }}>
+      <div className='container px-0' style={{ maxWidth: "1140px" }}>
         <div className='container d-sm-none px-3'>
           <p style={{ fontSize: "16px", fontWeight: "300" }}>KARİYER REHBERİ</p>
           <div style={{ maxWidth: "540px", overflowX: "scroll" }}>

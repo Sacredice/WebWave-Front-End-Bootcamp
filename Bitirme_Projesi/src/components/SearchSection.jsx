@@ -99,7 +99,7 @@ function SearchSection() {
                 <a href="">İK Uzmanı</a>
               </div>
 
-              <div className='d-none d-xl-block popular-search-item-container'>
+              <div className='d-none d-xl-block popular-search-item-container' style={{ height: "52px" }}>
                 <a href="">İstanbul(Avrupa)</a>
                 <a href="">İstanbul(Asya)</a>
                 <a href="">Ankara</a>
