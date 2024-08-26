@@ -141,6 +141,28 @@
     font-weight: 500;
 }
 
+.devam-gor-button {
+    width: 126px;
+    heigh: 30px;
+    padding: 6px 8px;
+    color: rgb(131, 22, 181);
+    border: 1px solid rgb(131, 22, 181);
+    border-radius: 4px;
+}
+
+.devam-gor-button span {
+    font-weight: 500;
+    color: rgb(131, 22, 181);
+}
+
+.devam-gor-button:hover {
+    background-color: rgb(131, 22, 181);
+}
+
+.devam-gor-button:hover span{
+    color: #FFF;
+}
+
 
 @media only screen and (min-width: 992px) {
     .searchselection-container {
