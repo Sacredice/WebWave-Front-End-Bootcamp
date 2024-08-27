@@ -39,7 +39,7 @@ function PromotedJobs() {
           <p className='d-xl-none' style={{ fontSize: "20px", marginBottom: "16px", fontWeight: "300" }}>ÖNE ÇIKAN İLANLAR</p>
           <p className='d-none d-xl-block' style={{ fontSize: "22px", marginBottom: "16px", fontWeight: "300" }}>ÖNE ÇIKAN İLANLAR</p>
           {/* MD Medium 768px <= ile < 992px arası */}
-          <Carousel className='d-lg-none' controls={false} indicators={null} touch interval={null} >
+          <Carousel className='d-lg-none' controls indicators={null} touch interval={null} >
             <Carousel.Item>
               <div className='d-flex justify-content-between' style={{ width: "720px", height: "242px" }}>
                 <PromotedJobMediumCard link={"/https://www.techcareer.net/"} imgSrc={"/company-img1.webp"} job={"Satış Okulu Temsilcisi"} company={"Aabir Yayın Dağıtım Danışmanlık"} location={"İstanbul(Tümü)"} width={"230px"} />

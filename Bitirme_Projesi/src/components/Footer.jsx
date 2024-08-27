@@ -199,24 +199,52 @@ function Footer() {
                 <p style={{ fontSize: "11px", fontWeight: "400", marginTop: "16px" }}>Copyright &copy; 1999-2024 Kariyer.net</p>
               </div>
               <div>
-                <div className='flex-grow-1 d-flex flex-column align-items-end' >
+                <div className='flex-grow-1 d-flex flex-column d-xl-none align-items-end' >
                   <p style={{ color: "#FFF", fontSize: "11px", textWrap: "nowrap", marginTop: "8px" }}>Kariyer.net bir&nbsp;<a style={{ display: "inline-block", margin: "0 3px" }} href="http://localhost:5173/"><img src="https://aday-spage.mncdn.com/Knet_img_ilab-logo.afbe989.svg?v=89042" alt="" /></a>&nbsp;grup şirketidir
                   </p>
                   <ul className='d-flex flex-wrap px-0' style={{ listStyleType: "none" }}>
-                  <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.arabam.com/">Arabam.com -&nbsp;
-                  </a></li>
-                  <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.chemorbis.com/tr/">ChemOrbis -&nbsp;</a></li>
-                  <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.cimri.com/">Cimri.com -</a></li>
-                  <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.emlakjet.com/">Emlakjet -&nbsp;</a>
-                  </li>
-                  <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.hangikredi.com/">Hangikredi.com -&nbsp;</a></li>
-                  <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.neredekal.com/">Neredekal.com</a></li>
-                  <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.sigortam.net/">Sigortam.net -&nbsp;</a>
-                  </li>
-                  <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://tr.steelorbis.com/">SteelOrbis</a></li>
+                    <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.arabam.com/">Arabam.com -&nbsp;
+                    </a></li>
+                    <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.chemorbis.com/tr/">ChemOrbis -&nbsp;</a></li>
+                    <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.cimri.com/">Cimri.com -</a></li>
+                    <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.emlakjet.com/">Emlakjet -&nbsp;</a>
+                    </li>
+                    <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.hangikredi.com/">Hangikredi.com -&nbsp;</a></li>
+                    <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.neredekal.com/">Neredekal.com</a></li>
+                    <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.sigortam.net/">Sigortam.net -&nbsp;</a>
+                    </li>
+                    <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://tr.steelorbis.com/">SteelOrbis</a></li>
 
-                </ul>
+                  </ul>
                 </div>
+
+                <div className='flex-grow-1 d-none d-xl-flex align-items-center mt-3' >
+
+                  <ul className='d-flex flex-wrap px-0' style={{ listStyleType: "none" }}>
+                    <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.arabam.com/">Arabam.com -&nbsp;
+                    </a></li>
+                    <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.chemorbis.com/tr/">ChemOrbis -&nbsp;</a></li>
+                    <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.cimri.com/">Cimri.com -</a></li>
+                    <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.emlakjet.com/">Emlakjet -&nbsp;</a>
+                    </li>
+                    <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.hangikredi.com/">Hangikredi.com -&nbsp;</a></li>
+                    <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.neredekal.com/">Neredekal.com</a></li>
+                    <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://www.sigortam.net/">Sigortam.net -&nbsp;</a>
+                    </li>
+                    <li><a style={{ textDecoration: "none", color: "#FFF", fontSize: "12px" }} href="https://tr.steelorbis.com/">SteelOrbis</a></li>
+
+                  </ul>
+                  <p style={{ color: "#FFF", fontSize: "12px", textWrap: "nowrap", marginLeft: "32px", paddingTop: "3px" }}>Kariyer.net bir&nbsp;<a style={{ display: "inline-block", margin: "0 3px" }} href="http://localhost:5173/"><img src="https://aday-spage.mncdn.com/Knet_img_ilab-logo.afbe989.svg?v=89042" alt="" /></a>&nbsp;grup şirketidir
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='d-flex'>
+              <div>
+                <img style={{ width: "57px", height: "55px" }} src="https://aday-spage.mncdn.com/Knet_img_iskur.8814028.png?v=89042" alt="" />
+              </div>
+              <div className='flex-grow-1 ms-2'>
+                <p style={{ fontSize: "12px", fontWeight: "400", color: "rgb(170, 64, 219)" }}>Kariyer.net Elektronik Yayıncılık ve İletişim Hizmetleri A.Ş. Özel İstihdam Bürosu Olarak 31/08/2021-30/08/2024 tarihleri arasında faaliyette bulunmak üzere, Türkiye İş Kurumu tarafından 17/08/2021 tarih ve 9317662 sayılı karar uyarınca 170 nolu belge ile faaliyet göstermektedir. 4904 sayılı kanun uyarınca iş arayanlardan ücret alınmayacak ve menfaat temin edilmeyecektir. Şikayetleriniz için aşağıdaki telefon numaralarına başvurabilirsiniz. Diğer iller için <a style={{ fontSize: "12px", fontWeight: "400", color: "rgb(170, 64, 219)" }} href="https://www.kariyer.net/website/hakkimizda/iskurDuyuru.aspx">tıklayın.</a>tıklayın. Türkiye İş Kurumu İstanbul İl Müdürlüğü: 0212 249 29 87 Türkiye iş Kurumu İstanbul Çalışma ve İş Kurumu Ümraniye Hizmet Merkezi : 0216 523 90 26</p>
               </div>
             </div>
 

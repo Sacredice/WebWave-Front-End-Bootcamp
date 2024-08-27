@@ -35,6 +35,51 @@
     color: #FFF!important;
 }
 
+.purple-nav-button {
+    width: 180px;
+    height: 42px;
+    background-color: #8315B5;
+    color: #FFF;
+    margin-left: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #8315B5;
+}
+
+.purple-nav-button:hover {
+    background-color: #6A1293;
+    color: #FFF;
+    border: 1px solid #6A1293;
+}
+
+.purple-nav-button .up-carrot {
+    display: none;
+}
+.purple-nav-button:hover .up-carrot {
+    display: inline;
+}
+
+.purple-nav-button:hover .down-carrot {
+    display: none;
+}
+
+.cyan-nav-button {
+    display: inline-block;
+    padding: auto auto;
+    width: 116px;
+    height: 39px;
+    color: #4AB5E2;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #4AB5E2;
+}
+
+.cyan-nav-button:hover {
+    background-color: #4AB5E2;
+    color: #FFF;
+    border: 1px solid #4AB5E2;
+}
+
 .promoted-jobs-container {
     background-color: #FFF;
 }
@@ -68,7 +113,7 @@
 .carousel-indicators button {
 
     background-color: #333333!important;
-    border-color: red;
+
 }
 
 .card-static-shadow {
@@ -162,6 +207,73 @@
     color: #FFF;
 }
 
+.lines-menu-icon:hover {
+    color: rgb(131, 22, 181);
+}
+
+.login-sign-in-button:hover {
+    text-decoration: underline;
+    color: rgb(112, 19, 155);
+}
+
+.nav-bar-height {
+    height: 48px;
+}
+
+.kariyer-planlaması {
+    display: flex;
+    align-items: center;
+    width: 156.5px;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    text-wrap: nowrap;
+    position: relative;
+}
+
+.kariyer-planlaması:hover {
+    border-bottom: 2px solid rgb(131, 22, 181);
+    cursor: pointer;
+    
+}
+
+.kariyer-planlaması:hover .menu-kariyer-planlaması {
+    display: block;
+    
+}
+
+.menu-kariyer-planlaması {
+    width: 837px;
+    height: 424.5px;
+    z-index: 1;
+    color:rgb(0, 0, 0);
+    background-color: #FFF;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    transform: translate(-20%, calc(100% + 1px));
+    display: none;
+}
+
+.kariyer-rehberi {
+    display: flex;
+    align-items: center;
+    width: 131.5px;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    text-wrap: nowrap;
+}
+
+.kariyer-rehberi:hover {
+    border-bottom: 2px solid rgb(131, 22, 181);
+    cursor: pointer;
+}
+
 
 @media only screen and (min-width: 992px) {
     .searchselection-container {
@@ -191,7 +303,7 @@
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 576px) {
     .carousel:hover .carousel-control-next,
     .carousel:hover .carousel-control-prev {
         display: flex;
@@ -205,7 +317,7 @@
 }
 @media only screen and (min-width: 768px) {
     .job-ads {
-        background-color: #FFFFFF;
+        background-color: hsl(0, 0%, 100%);
     }
 }
 
@@ -218,6 +330,12 @@
 @media only screen and (min-width: 768px) {
     .career-plan-container {
         background-color: #f5f5f5;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .nav-bar-height {
+        height: 68px;
     }
 }
 
