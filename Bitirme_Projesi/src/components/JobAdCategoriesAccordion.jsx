@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 import JobAdCategoryItem from './JobAdCategoryItem';
-import "./accordionOverride.css"
+import "./jobAdCategoryAccordionOverride.css"
 import { sectorCategoryList } from "../jobs-data/jobAdCategoryData"
 
 function JobAdCategoriesAccordion() {

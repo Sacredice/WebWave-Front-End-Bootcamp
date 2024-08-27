@@ -86,19 +86,19 @@ function SearchSection() {
               </div>
               <h2 style={{ fontSize: "1rem", color: "#8795B5", marginBottom: "1rem", marginTop: "32px" }}>POPÜLAR ARAMALAR</h2>
               <div className='d-flex flex-wrap d-xl-none popular-search-item-container' style={{ maxWidth: "620px" }}>
-                <a className='mb-3' href="">Finans Uzmanı</a>
-                <a href="">Dijital Pazarlama Uzmanı</a>
-                <a href="">Yazılım Geliştirme Uzmanı</a>
-                <a href="">Proje Yöneticisi</a>
-                <a href="">İK Uzmanı</a>
+                <a className='d-block' href="">Finans Uzmanı</a>
+                <a className="d-block" href="">Dijital Pazarlama Uzmanı</a>
+                <a className="d-block" href="">Yazılım Geliştirme Uzmanı</a>
+                <a className="d-block" href="">Proje Yöneticisi</a>
+                <a className="d-block" href="">İK Uzmanı</a>
               </div>
 
               <div className='d-none d-xl-block popular-search-item-container' style={{ height: "52px" }}>
-                <a href="">Finans Uzmanı</a>
-                <a href="">Dijital Pazarlama Uzmanı</a>
-                <a href="">Yazılım Geliştirme Uzmanı</a>
-                <a href="">Proje Yöneticisi</a>
-                <a href="">İK Uzmanı</a>
+                <a className="d-inline-block" href="">Finans Uzmanı</a>
+                <a className="d-inline-block" href="">Dijital Pazarlama Uzmanı</a>
+                <a className="d-inline-block" href="">Yazılım Geliştirme Uzmanı</a>
+                <a className="d-inline-block" href="">Proje Yöneticisi</a>
+                <a className="d-inline-block" href="">İK Uzmanı</a>
               </div>
 
               <div className='d-none d-xl-block popular-search-item-container' style={{ height: "52px" }}>

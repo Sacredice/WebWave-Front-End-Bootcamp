@@ -6,6 +6,7 @@ import JobsAds from '../components/JobsAds'
 import CareerPlan from '../components/CareerPlan'
 import CareerGuide from '../components/CareerGuide'
 import JobAdCategoriesAccordion from '../components/JobAdCategoriesAccordion'
+import Footer from '../components/Footer'
 
 
 function Home() {
@@ -18,7 +19,7 @@ function Home() {
       <CareerPlan />
       <CareerGuide />
       <JobAdCategoriesAccordion />
-      <AdCarousel />
+      <Footer />
     </div>
   )
 }

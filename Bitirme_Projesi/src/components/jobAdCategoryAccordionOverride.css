@@ -1,4 +1,4 @@
-/* Overriding accordion css classes for removing accordion button click effects */
+/* Overriding accordion css classes for removing accordion button click styling effects */
 .accordion-button:not(.collapsed) {
   background-color: transparent!important;
   color: inherit;
@@ -17,7 +17,7 @@
 /* Styling default accordion */
 
 .accordion-item {
-  margin-bottom: 16px; /* Adjust this value as needed */
+  margin-bottom: 16px;
   border: 0 solid #FFFFFF;
 }
 
