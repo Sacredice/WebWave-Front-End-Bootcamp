@@ -7,7 +7,7 @@ function JobAdsCardsListMedium({ data }) {
       <div className='container px-0 pt-3 d-none d-md-block d-lg-none' style={{ height:"520px", maxWidth: "720px", marginBottom: "12px", boxShadow: "0 0 4px rgba(0, 0, 0, 0.1)", borderRadius: "6px" }}>
         <div className='d-flex justify-content-between'>
           <p className='m-0 ps-3' style={{ fontSize: "20px", fontWeight: "300" }}>{(data.title).toUpperCase()}</p>
-          <a className='m-0 pe-3' style={{ fontSize: "14px", fontWeight: "500", color: "rgb(131, 22, 181)", textDecoration: "none" }}>Tüm İlanlar</a>
+          <a href='https://www.kariyer.net/is-ilanlari/yeni' className='m-0 pe-3' style={{ fontSize: "14px", fontWeight: "500", color: "rgb(131, 22, 181)", textDecoration: "none", cursor: "pointer" }}>Tüm İlanlar</a>
         </div>
         <div className='d-flex justify-content-center'>
           <div className='row' style={{ height: "178px", width: "100%", marginTop: "16px" }}>
@@ -22,7 +22,7 @@ function JobAdsCardsListMedium({ data }) {
       <div className='container px-2 py-3 d-none d-lg-block d-xl-none' style={{ height:"520px", maxWidth: "720px", marginBottom: "12px", boxShadow: "0 0 4px rgba(0, 0, 0, 0.1)", borderRadius: "6px" }}>
         <div className='d-flex justify-content-between'>
           <p className='m-0 ps-3' style={{ fontSize: "20px", fontWeight: "300" }}>{(data.title).toUpperCase()}</p>
-          <a className='m-0 pe-3' style={{ fontSize: "14px", fontWeight: "500", color: "rgb(131, 22, 181)", textDecoration: "none" }}>Tüm İlanlar</a>
+          <a className='m-0 pe-3' style={{ fontSize: "14px", fontWeight: "500", color: "rgb(131, 22, 181)", textDecoration: "none", cursor: "pointer" }}>Tüm İlanlar</a>
         </div>
         <div className='d-flex justify-content-center'>
           <div className='row' style={{ height: "178px", width: "100%", marginTop: "16px" }}>
@@ -37,7 +37,7 @@ function JobAdsCardsListMedium({ data }) {
       <div className='container px-3 pt-4 d-none d-xl-block' style={{ height:"552px", maxWidth: "899px", marginBottom: "12px", boxShadow: "0 0 4px rgba(0, 0, 0, 0.1)", borderRadius: "6px" }}>
         <div className='d-flex justify-content-between'>
           <p className='m-0 ps-3' style={{ fontSize: "22px", fontWeight: "300" }}>{(data.title).toUpperCase()}</p>
-          <a className='m-0 pe-3' style={{ fontSize: "14px", fontWeight: "500", color: "rgb(131, 22, 181)", textDecoration: "none" }}>Tüm İlanlar</a>
+          <a href='https://www.kariyer.net/is-ilanlari/yeni' className='m-0 pe-3' style={{ fontSize: "14px", fontWeight: "500", color: "rgb(131, 22, 181)", textDecoration: "none", cursor: "pointer" }}>Tüm İlanlar</a>
         </div>
         <div className='d-flex justify-content-center'>
           <div className='row' style={{ height: "178px", width: "100%", marginTop: "16px" }}>

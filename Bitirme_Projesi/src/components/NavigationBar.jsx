@@ -31,7 +31,7 @@ function Navigationbar() {
           >
             <Modal.Header closeButton>
               <Modal.Title id="example-custom-modal-styling-title">
-                <Link to="/" style={{ display: "block", width: "111px", width: "16px"}} href="/"><img style={{}} src="https://aday-spage.mncdn.com/Knet_img_KnetLogoHeader.76801b2.svg?v=89042" alt="Kariyer.net" /></Link>
+                <Link to="/" style={{ display: "block", width: "111px"}}><img style={{}} src="https://aday-spage.mncdn.com/Knet_img_KnetLogoHeader.76801b2.svg?v=89042" alt="Kariyer.net" /></Link>
               </Modal.Title>
             </Modal.Header>
             <Modal.Body>
@@ -60,23 +60,23 @@ function Navigationbar() {
                 <div className='d-flex'>
                   <div style={{ margin: "28px 12px 16px 32px" }}>
                     <p style={{ fontSize: "14px" }} >ÜNİVERSİTEYE HAZIRLIK</p>
-                    <a style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversite Rehberi</a>
-                    <a style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversiteler</a>
-                    <a style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversite Taban Puanları</a>
-                    <a style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Tercih Motoru</a>
-                    <a style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Meslekler Rehberi</a>
-                    <a style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">İşverenlerin Tercihi</a>
-                    <a style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">YKS Puan Hesaplama</a>
+                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversite Rehberi</a>
+                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversiteler</a>
+                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversite Taban Puanları</a>
+                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Tercih Motoru</a>
+                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Meslekler Rehberi</a>
+                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">İşverenlerin Tercihi</a>
+                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">YKS Puan Hesaplama</a>
                   </div>
                   <div style={{ margin: "28px 12px 16px 24px" }}>
                     <p >İLK İŞİM VE PROFESYONEL HAYAT</p>
-                    <a style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversite Rehberi</a>
-                    <a style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversiteler</a>
-                    <a style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversite Taban Puanları</a>
-                    <a style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Tercih Motoru</a>
-                    <a style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Meslekler Rehberi</a>
-                    <a style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">İşverenlerin Tercihi</a>
-                    <a style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">YKS Puan Hesaplama</a>
+                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversite Rehberi</a>
+                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversiteler</a>
+                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversite Taban Puanları</a>
+                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Tercih Motoru</a>
+                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Meslekler Rehberi</a>
+                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">İşverenlerin Tercihi</a>
+                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">YKS Puan Hesaplama</a>
                   </div>
                   <div className='d-flex flex-column justify-content-start align-items-center' style={{ margin: "28px 12px 16px 24px" }}>
                     <a style={{ display: "block", width: "300px", height: "135px" }} href="http://localhost:5173/"><img style={{ display: "block" }} src="https://aday-spage.mncdn.com/Knet_img_content.91beec9.svg?v=89042" alt="" /></a>
