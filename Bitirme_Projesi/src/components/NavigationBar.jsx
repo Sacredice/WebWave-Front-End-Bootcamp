@@ -31,7 +31,7 @@ function Navigationbar() {
           >
             <Modal.Header closeButton>
               <Modal.Title id="example-custom-modal-styling-title">
-                <a style={{ display: "block", width: "111px", width: "16px"}} href="/"><img style={{}} src="https://aday-spage.mncdn.com/Knet_img_KnetLogoHeader.76801b2.svg?v=89042" alt="Kariyer.net" /></a>
+                <Link to="/" style={{ display: "block", width: "111px", width: "16px"}} href="/"><img style={{}} src="https://aday-spage.mncdn.com/Knet_img_KnetLogoHeader.76801b2.svg?v=89042" alt="Kariyer.net" /></Link>
               </Modal.Title>
             </Modal.Header>
             <Modal.Body>
@@ -52,7 +52,7 @@ function Navigationbar() {
         <div className='container px-0 d-none d-lg-flex justify-content-between align-items-center' style={{ maxWidth: "1140px", height: "68px" }}>
 
           <div className='d-flex align-items-center h-100'>
-            <a href="/"><img style={{ width: "173px", height: "26px" }} src="https://aday-spage.mncdn.com/Knet_img_KnetLogoHeader.76801b2.svg?v=89042" alt="" /></a>
+            <Link to="/"><img style={{ width: "173px", height: "26px" }} src="https://aday-spage.mncdn.com/Knet_img_KnetLogoHeader.76801b2.svg?v=89042" alt="" /></Link>
             <a href="" style={{ display: "inline-flex", width: "64px", height: "100%", alignItems: "center", textDecoration: "none", fontSize: "16px", fontWeight: "500", color: "rgb(0, 0, 0)", padding: "12px", textWrap: "nowrap" }}>İş Ara</a>
             <div className='kariyer-planlaması' href="">
               Kariyer Planlaması
