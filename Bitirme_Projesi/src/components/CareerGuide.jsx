@@ -1,5 +1,4 @@
 import React from 'react'
-import CareerGuideCards from './CareerGuideCards'
 import CareerGuideCard from './CareerGuideCard'
 
 const cardsList = [

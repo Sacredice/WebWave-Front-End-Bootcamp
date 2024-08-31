@@ -85,7 +85,7 @@ function JobAdCategoriesAccordion() {
             </Accordion.Item>
           </Accordion>
         </div>
-        <div className='container px-0 pb-4'>
+        <div className='container px-3 pb-4'>
           <strong style={{ display: "block", marginBottom: "20px", color: "rgb(51, 51, 51)" }}>Kariyer.net İş ilanları</strong>
           <p className='mb-3' style={{ color: "rgb(51, 51, 51)" }}>Dijital İK'nın öncüsü Kariyer.net, 1999 yılından bugüne Türkiye’nin en büyük istihdam platformu. Açık iş pozisyonlarından iş piyasasına dair iç görülere, kişisel gelişim odaklı çalışmalardan pozisyon - yetenek uyumuna kadar tüm deneyimini; mavi yakalıdan yönetici adaylarına, işverenden stajyer öğrenciye kadar herkese ulaştırma görevini üstleniyor. Öğrenim göreceğin üniversite, seçeceğin bölüm hakkındaki tüm bilgiye ve mezun olduktan sonra hayalindeki iş fırsatlarına da yine Kariyer.net ile ulaşmak çok kolay! </p>
           <strong style={{ display: "block", marginBottom: "20px", color: "rgb(51, 51, 51)" }}>Kariyer.net ile İş Bulma</strong>
