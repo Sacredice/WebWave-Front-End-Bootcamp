@@ -51,35 +51,35 @@ function Navigationbar() {
       <div className='container px-0'>
         <div className='container px-0 d-none d-lg-flex justify-content-between align-items-center' style={{ maxWidth: "1140px", height: "68px" }}>
 
-          <div className='d-flex align-items-center h-100'>
-            <Link to="/"><img style={{ width: "173px", height: "26px" }} src="https://aday-spage.mncdn.com/Knet_img_KnetLogoHeader.76801b2.svg?v=89042" alt="" /></Link>
-            <a href="" style={{ display: "inline-flex", width: "64px", height: "100%", alignItems: "center", textDecoration: "none", fontSize: "16px", fontWeight: "500", color: "rgb(0, 0, 0)", padding: "12px", textWrap: "nowrap" }}>İş Ara</a>
+          <div className='d-flex align-items-center h-100' style={{ lineHeight: "21px"}}>
+            <Link to="/"><img style={{ width: "173px", height: "26px", marginRight: "16px" }} src="https://aday-spage.mncdn.com/Knet_img_KnetLogoHeader.76801b2.svg?v=89042" alt="" /></Link>
+            <a href="" style={{ display: "inline-flex", width: "64px", height: "100%", alignItems: "center", textDecoration: "none", fontSize: "16px", fontWeight: "500", color: "rgb(0, 0, 0)", padding: "16px", textWrap: "nowrap" }}>İş Ara</a>
             <div className='kariyer-planlaması' href="">
               Kariyer Planlaması
-              <div className='menu-kariyer-planlaması'>
+              <div className='kariyer-planlaması-menu'>
                 <div className='d-flex'>
                   <div style={{ margin: "28px 12px 16px 32px" }}>
                     <p style={{ fontSize: "14px" }} >ÜNİVERSİTEYE HAZIRLIK</p>
-                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversite Rehberi</a>
-                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversiteler</a>
-                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversite Taban Puanları</a>
-                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Tercih Motoru</a>
-                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Meslekler Rehberi</a>
-                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">İşverenlerin Tercihi</a>
-                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">YKS Puan Hesaplama</a>
+                    <a className='kariyer-planlaması-menu-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversite Rehberi</a>
+                    <a className='kariyer-planlaması-menu-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversiteler</a>
+                    <a className='kariyer-planlaması-menu-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversite Taban Puanları</a>
+                    <a className='kariyer-planlaması-menu-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Tercih Motoru</a>
+                    <a className='kariyer-planlaması-menu-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Meslekler Rehberi</a>
+                    <a className='kariyer-planlaması-menu-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">İşverenlerin Tercihi</a>
+                    <a className='kariyer-planlaması-menu-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">YKS Puan Hesaplama</a>
                   </div>
                   <div style={{ margin: "28px 12px 16px 24px" }}>
                     <p >İLK İŞİM VE PROFESYONEL HAYAT</p>
-                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversite Rehberi</a>
-                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversiteler</a>
-                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversite Taban Puanları</a>
-                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Tercih Motoru</a>
-                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Meslekler Rehberi</a>
-                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">İşverenlerin Tercihi</a>
-                    <a className='menu-kariyer-planlaması-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">YKS Puan Hesaplama</a>
+                    <a className='kariyer-planlaması-menu-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversite Rehberi</a>
+                    <a className='kariyer-planlaması-menu-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversiteler</a>
+                    <a className='kariyer-planlaması-menu-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Üniversite Taban Puanları</a>
+                    <a className='kariyer-planlaması-menu-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Tercih Motoru</a>
+                    <a className='kariyer-planlaması-menu-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">Meslekler Rehberi</a>
+                    <a className='kariyer-planlaması-menu-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">İşverenlerin Tercihi</a>
+                    <a className='kariyer-planlaması-menu-item' style={{ fontSize: "16px", fontWeight: "400", display: "block", textDecoration: "none", margin: "0 8px 20px 0", color: "black" }} href="https://www.kariyer.net/universite-rehberi">YKS Puan Hesaplama</a>
                   </div>
                   <div className='d-flex flex-column justify-content-start align-items-center' style={{ margin: "28px 12px 16px 24px" }}>
-                    <a style={{ display: "block", width: "300px", height: "135px" }} href="http://localhost:5173/"><img style={{ display: "block" }} src="https://aday-spage.mncdn.com/Knet_img_content.91beec9.svg?v=89042" alt="" /></a>
+                    <a style={{ display: "block", width: "300px", height: "135px", marginBottom: "12px" }} href="http://localhost:5173/"><img style={{ display: "block" }} src="https://aday-spage.mncdn.com/Knet_img_content.91beec9.svg?v=89042" alt="" /></a>
                     <p style={{ textWrap: "wrap", width: "300px" }}>10.000’den fazla pozisyon maaşına ait detayları hemen keşfet!</p>
                   </div>
                 </div>

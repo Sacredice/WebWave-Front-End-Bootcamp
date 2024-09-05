@@ -4,7 +4,7 @@ import React from 'react'
 function SearchSection() {
   return (
     <div className='d-block searchselection-container p-0' style={{ height: "100%", overflowX: "clip" }}>
-      <div className='container p-0' style={{ maxWidth: "1140px" }}>
+      <div className='container p-0' style={{ maxWidth: "1140px", height: "100%" }}>
         <div className='container-fluid d-flex flex-column justify-content-center px-0' style={{ height: "100%", paddingTop: "32px" }}>
           <div className='d-lg-none px-3 pb-2 text-center' style={{ width: "100%", marginTop: "10px" }}>
             <h1 className='text-center' style={{ fontSize: "2rem" }}>Kariyer Fırsatlarını Keşfet</h1>
@@ -31,7 +31,7 @@ function SearchSection() {
           </div>
 
           <div className='container d-none d-lg-flex  align-items-center px-0' style={{ position: "relative", height: "100%", backgroundColor: "#F5F5F5" }}>
-            <img className='d-none d-lg-block d-xl-none' style={{ position: "absolute", bottom: "0", left: "620px", height: "286px" }} src="/searchbox-img.webp" alt="Kariyer Logo" />
+            <img className='d-none d-lg-block d-xl-none' style={{ display: "block", position: "absolute", bottom: "0", left: "620px", height: "286px" }} src="/searchbox-img.webp" alt="Kariyer Logo" />
             <img className='d-none d-xl-block' style={{ position: "absolute", bottom: "0", left: "758px" }} src="/searchbox-img.webp" alt="Kariyer Logo" />
             <div style={{ marginTop: "30px" }}>
               <h1 style={{ fontSize: "2rem" }}>Kariyer Fırsatlarını Keşfet</h1>
